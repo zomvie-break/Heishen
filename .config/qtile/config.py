@@ -192,7 +192,7 @@ keys = [
         ])
 ]
 
-groups = [Group("work I\t", {'layout': 'monadtall'}),
+groups = [Group("work I\t", {'layout': 'monadtall'}, label="I"),
             Group("work II\t", {'layout': 'monadtall'}),
             Group("work III\t", {'layout': 'monadtall'}),
             Group("office I\t", {'layout': 'monadtall'}),
