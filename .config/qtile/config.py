@@ -192,15 +192,15 @@ keys = [
         ])
 ]
 
-groups = [Group("work I\t", {'layout': 'monadtall'}, label="I"),
-            Group("work II\t", {'layout': 'monadtall'}),
-            Group("work III\t", {'layout': 'monadtall'}),
-            Group("office I\t", {'layout': 'monadtall'}),
-            Group("office II\t", {'layout': 'monadtall'}),
-            Group("music\t", {'layout': 'monadtall'}),
-            Group("pass\t", {'layout': 'monadtall'}),
-            Group("other", {'layout': 'monadtall'}),
-            Group("fl", {'layout': 'floating'})]
+groups = [Group("work I\t", {'layout': 'monadtall'}, label="一"),
+            Group("work II\t", {'layout': 'monadtall'}, label="二"),
+            Group("work III\t", {'layout': 'monadtall'},label="三"),
+            Group("office I\t", {'layout': 'monadtall'},label="四"),
+            Group("office II\t", {'layout': 'monadtall'},label="五"),
+            Group("music\t", {'layout': 'monadtall'},label="六"),
+            Group("pass\t", {'layout': 'monadtall'},label="七"),
+            Group("other", {'layout': 'monadtall'},label="八"),
+            Group("fl", {'layout': 'floating'},label="九")]
 
 # Allow MODKEY+[0 through 9] to bind to groups, see https://docs.qtile.org/en/stable/manual/config/groups.html
 # MOD4 + index Number : Switch to Group[index]
