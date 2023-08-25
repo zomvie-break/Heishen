@@ -64,10 +64,10 @@ keys = [
             lazy.shutdown(),
             desc='Shutdown Qtile'
             ),
-        Key(["control", "shift"], "e",
-            lazy.spawn("emacsclient -c -a emacs"),
-            desc='Doom Emacs'
-            ),
+        # Key(["control", "shift"], "e",
+        #     lazy.spawn("emacsclient -c -a emacs"),
+        #     desc='Doom Emacs'
+        #     ),
         ### Treetab controls
          Key([mod, "shift"], "h",
             lazy.layout.move_left(),
